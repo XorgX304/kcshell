@@ -18,7 +18,7 @@ cd kcshell
 python setup.py install
 ```
 
-Note: for some reason if the above doesn't work for you in a Debian based Linux distro because package maintainers `¯\_(ツ)_/¯` try:
+**Note**: if for some reason the above doesn't work for you in a Debian based Linux distro because package maintainers `¯\_(ツ)_/¯` try:
 
 ```bash
 $ sudo apt-get install cmake
