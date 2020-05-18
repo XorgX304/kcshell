@@ -18,6 +18,20 @@ cd kcshell
 python setup.py install
 ```
 
+Note: for some reason if the above doesn't work for you in a Debian based Linux distro because package maintainers `¯\_(ツ)_/¯` try:
+
+```bash
+$ sudo apt-get install cmake
+$ wget https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz
+$ tar zxvf 0.9.1.tar.gz
+$ cd keystone-0.9.1/
+$ mkdir build
+$ cd build/
+$ ../make-share.sh 
+$ sudo make install
+$ sudo pip3 install kcshell
+```
+
 ## Usage
 
 By default 'kcshell' starts in 'assembler' mode (x86 32 bits). You can change modes with 'setmode', and you can also change the default architecture for both the 'assembler' and 'disassembler' with 'setarch'. 
