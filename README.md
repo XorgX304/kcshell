@@ -127,12 +127,6 @@ mips64, x16, arm64, mips32, arm_t, x86, arm, x64
 disasm> 
 ```
 
-### TODO
-
-* ~~Create Python package~~
-* Read input from files
-* Set a proper base address for 64 bits architectures
-
 #### Python Package Index
 
 * https://pypi.python.org/pypi/kcshell
